@@ -395,7 +395,7 @@ def main(win):
 
         #checks if the users has lost 
         if check_lost(locked_positions):
-            text_middle(win, "YOU LOST!", 80, ())
+            text_middle(win, "YOU LOST!", 80, (255,0,0))
             pygame.display.update()
             pygame.time.delay(1500)
             run = False
